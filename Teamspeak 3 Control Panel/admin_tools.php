@@ -7,11 +7,11 @@
 	if (!isset($_GET['dbid'])) {
 		die ('Listen here you nig, use this system as it is meant to be used or i will fking end your bish ass.');
 	}
-	$ts3_VirtualServer = TeamSpeak3::factory("serverquery://ServerReg:xqZJwrnt@66.70.198.65:10011/?server_port=9987&nickname=EternityBot");
+	$ts3_VirtualServer = TeamSpeak3::factory("serverquery://QUERY USERNAME:QUERY PASSWORD@SERVER_IP:10011/?server_port=9987&nickname=EternityBot");
 	$counter = 1;
 	$current_groups = array();
-	$ts3Admin = new ts3admin('66.70.198.65', 10011);
-	$tsAdmin = new ts3admin('66.70.198.65', 10011);
+	$ts3Admin = new ts3admin('SERVER IP' , 10011);
+	$tsAdmin = new ts3admin('SERVER IP', 10011);
 	$username="ServerReg";
 	$password="xqZJwrnt";
 	$ts3_Port = 9987;	
