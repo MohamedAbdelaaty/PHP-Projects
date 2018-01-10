@@ -1,0 +1,142 @@
+.centered-cust {
+	text-align:center;
+}
+
+.intro {
+	padding: 180px 0px;
+	background:url(http://saudies.ml/includes/img/intro-bg.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+	margin:0px;
+}
+
+.menu-head {
+	padding: 180px 0px;
+	background:url(http://saudies.ml/includes/img/intro-bg.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+	margin:0px;
+}
+
+.status {
+	padding: 300px 0px;
+	background:url(http://saudies.ml/includes/img/status.jpg) no-repeat center;
+	background-size: cover;
+	color: white;
+	background-attachment: fixed;
+	margin:0px;
+	font-weight:bold;
+}
+
+.shop-status-active {
+	padding: 30px 15px;
+	text-align: center;
+	background-color: blue;
+	border-radius: 10px;
+	width: 400px;
+}
+
+.shop-status-inactive {
+	padding: 30px 15px;
+	text-align: center;
+	background-color: red;
+	border-radius: 10px;
+	width: 400px;
+}
+
+.navbar {
+	margin:0px; 
+}
+
+.right-just {
+	text-align: right;
+}
+
+h1.upsize {
+	font-size:80px;
+}
+
+.menu-item {
+	width: 100%;
+	margin: 0px;
+	height: 180px;
+}
+
+.menu-item-nug {
+	width: 100%;
+	margin: 0px;
+	height: 260px;
+	background-color: black;
+}
+
+div.item-desc {
+	background-color: grey;
+	margin: 0px;
+	padding: 25px 10px;
+	text-align: center;
+}
+
+.nugg-pricing {
+	background-color: grey;
+	padding: 30px 25px;
+}
+
+.price {
+	margin-bottom: 60px !important;
+}
+
+.info {
+	padding: 100px 30px;
+	background-color: #09e57e;
+	margin:0px;
+	color:white;
+}
+
+.menu-page {
+	padding: 100px 30px;
+	background-color: #5e5e5e;
+	margin:0px;
+	color:white;
+}
+
+.info-2 {
+	padding: 100px 30px;
+	background-color:#b95ff4;
+	margin:0px;
+	color:white;
+}
+
+.menu {
+	padding: 90px 50px;
+	background:url(http://saudies.ml/includes/img/fries.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	margin:0px;
+}
+
+footer {
+	background-color: #383838;
+	margin:0px;
+	padding: 20px 0px;
+}
+
+.copyrights {
+	color: white;
+}
+
+.btn-cust {
+	padding: 15px 25px;
+	font-size: 20px;
+	background: transparent;
+	border: 2px solid white;
+	color: white;
+	border-radius: 0px;
+	transition: background-color .1s ease-in;
+}
+
+.btn-cust:hover {
+	background-color: white;
+}
+
