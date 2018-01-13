@@ -58,11 +58,11 @@
 				<div class="panel panel-default">
             				<div class="panel-heading">Announcements</div>
             				<div class="panel-body">
-												<ul>
-													<li>
-														Random thing here (Could work off a database and a place on the panel to add an announcement. Will add it upon request).
-													</li>
-												</ul>
+						<ul>
+							<li>
+								Random thing here (Could work off a database and a place on the panel to add an announcement. Will add it upon request).
+							</li>
+						</ul>
            				</div>
          			</div>
 			</div>
