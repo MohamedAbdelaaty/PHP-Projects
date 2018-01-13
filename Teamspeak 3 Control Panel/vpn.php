@@ -4,7 +4,7 @@
 	require "includes/handles/header.php";
 	require "includes/handles/loginchecker.php";
 	require_once("libraries/TeamSpeak3/TeamSpeak3.php");
-	$ts3_VirtualServer = TeamSpeak3::factory("serverquery://ServerReg:xqZJwrnt@144.217.65.90:10011/?server_port=9987&nickname=MrCatchYourVPN");
+	$ts3_VirtualServer = TeamSpeak3::factory("serverquery://USERNAME:PASSWORD@SERVER_IP:10011/?server_port=9987&nickname=MrCatchYourVPN");
 	$content = (double) file_get_contents("http://vpndetect.aimgaming.tk/?ip=".$_GET['ip']);
 
 	if ($content >= 0.9) {
