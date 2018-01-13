@@ -143,13 +143,13 @@ textarea[type=text] {
 				}
 				?>
 				<li class="dropdown">
-    			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account <span class="caret"></span></a>
-    			<ul class="dropdown-menu">
+    					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account <span class="caret"></span></a>
+    					<ul class="dropdown-menu">
 						<li><a href="#">Messages</a></li>
 						<li><a href="settings.php">Account Settings</a></li>
-    				<li><a href="auth/logout.php">Logout</a></li>
-    			</ul>
-  			</li>
+    						<li><a href="auth/logout.php">Logout</a></li>
+    					</ul>
+  				</li>
 			</ul>
 		</div>
 	</header>
@@ -165,7 +165,7 @@ textarea[type=text] {
 				</thead>
 				<tbody>
 					<?php
-					$data = $ts3_VirtualServer->serverGroupGetById(7)->clientList();
+					$data = $ts3_VirtualServer->serverGroupGetById(7)->clientList(); // SGID 7 is the member group
 					foreach($data as $dat) {
 						echo '<tr>';
 						echo '<td>'.$dat['cldbid'].'</td>';
