@@ -23,6 +23,8 @@
 			$_SESSION['display'] = $display;
 			$_SESSION['access'] = $access;
 			$_SESSION['created'] = time();
+			
+			// log logins
 			$file = fopen('../logs/log.txt','a');
 			$month = date('m');
 			$day = date('d');
@@ -34,6 +36,7 @@
 			fclose($file);
 			echo '<meta http-equiv="refresh" content="0; url=/" />';
 		} else {
+			// log logins
 			$file = fopen('../logs/log.txt','a');
 			$month = date('m');
 			$day = date('d');
