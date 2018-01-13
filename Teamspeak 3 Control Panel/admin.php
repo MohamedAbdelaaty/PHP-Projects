@@ -14,8 +14,8 @@
 	}
 
 	$ts3Admin = new ts3admin('' /*Server IP*/, 10011 /*Server Query Port (Default is 10011)*/);
-	$username="ServerReg";
-	$password="xqZJwrnt";
+	$username="";
+	$password="";
 	$ts3_Port = 9987;
 
 	$ip = $_SERVER['REMOTE_ADDR'];
